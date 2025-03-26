@@ -149,6 +149,12 @@ td,th{
     padding: 10px;
 }
 
+
+table, th, td {
+    border:4px solid #ffba08;
+}
+               
+
 tr:nth-of-type(odd){
     background-color: #e6a708;
 }
@@ -176,29 +182,29 @@ audio{
 }
 
 
-#homehero {
-    background-image: url(road.jpg);
+#homepage {
+    background-image: url(gaxaly\ cat.png);
     background-size: 100% 100%;
     background-repeat: no-repeat;
     height: 300px;
 }
 
-#heromugs {
-    background-image: url(threemugs.jpg);
+#gamepage {
+    background-image: url(legmiku.png);
     background-size: 100% 100%;
     background-repeat: no-repeat;
     height: 300px;
 }
 
-#heroguitar {
-    background-image: url(guitar.jpg);
+#aboutpage {
+    background-image: url(tiny\ dog.gif);
     background-size: 100% 100%;
     background-repeat: no-repeat;
     height: 300px;
 }
 
-#herojobs {
-    background-image: url(coffeecup.jpg);
+#extrapage {
+    background-image: url(capsulecreaturefront.png);
     background-repeat: no-repeat;
     background-size: 100% 100%;  
     height: 300px;
@@ -241,17 +247,17 @@ audio{
         grid-column: 9em;
     }
 
-    #homehero { background-image: url(hero.jpg);
+    #homepage { background-image: url(pumkin.gif);
                   height: 50vh; }
 
-    #heromugs { background-image: url(pumkin.gif); }
+    #gamepage { background-image: url(leekbanner.png); }
 
-    #heroguitar{ 
-        background-image: url(heroguitar.jpg); 
+    #aboutpage{ 
+        background-image: url(pinkcat.png); 
     }
 
-    #herojobs{
-        background-image: url(herojobs.jpg);
+    #extrapage{
+        background-image: url(titanic.png);
     }
 
     #flow { display: flex;
